@@ -1,0 +1,61 @@
+package utils;
+
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ExcelUtils {
+	
+	static String projectpath;
+	static XSSFWorkbook workbook;
+	static XSSFSheet sheet;
+	
+    public static void main(String[] args) throws IOException {
+		getRowCount();
+		getCellDataString();
+		getCellDataNumeric();
+	}
+    
+	public static  void getRowCount() throws IOException
+	{
+		projectpath= System.getProperty("user.dir");
+		workbook = new XSSFWorkbook(projectpath+ "/src/test/resources/excelfile/data.xlsx");
+		sheet =workbook.getSheet("Sheet1");
+		int rowCount = sheet.getPhysicalNumberOfRows();
+		System.out.println(rowCount);	
+	}
+	
+	public static void getCellDataString() throws IOException
+	{
+		projectpath= System.getProperty("user.dir");
+		workbook = new XSSFWorkbook(projectpath+ "/src/test/resources/excelfile/data.xlsx");
+		sheet =workbook.getSheet("Sheet1");
+		String cellData = sheet.getRow(0).getCell(0).getStringCellValue();
+		String cellData2 = sheet.getRow(0).getCell(1).getStringCellValue();
+		System.out.println(cellData);
+		System.out.println(cellData2);
+		
+	}
+	public static void getCellDataNumeric() throws IOException
+	{
+		projectpath= System.getProperty("user.dir");
+		workbook = new XSSFWorkbook(projectpath+ "/src/test/resources/excelfile/data.xlsx");
+		sheet =workbook.getSheet("Sheet1");
+		double cellData3 = sheet.getRow(0).getCell(0).getNumericCellValue();
+		double cellData4 = sheet.getRow(0).getCell(1).getNumericCellValue();
+		System.out.println(cellData3);
+		System.out.println(cellData4);
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+

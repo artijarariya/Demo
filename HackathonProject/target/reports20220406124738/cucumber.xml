@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="16" time="18.961">
+    <testcase classname="test http request" name="test GET request for single user" time="4.236">
+        <system-out><![CDATA[Given retrive data from "GET_single_user_request" and 0 for GET.............passed
+When user call baseUrl with endpoint and userId for GET.....................passed
+Then verify statusCode and userId with excel file for GET...................passed
+And print the response body for GET.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test http request" name="test GET request for single user 2" time="0.948">
+        <system-out><![CDATA[Given retrive data from "GET_single_user_request" and 1 for GET.............passed
+When user call baseUrl with endpoint and userId for GET.....................passed
+Then verify statusCode and userId with excel file for GET...................passed
+And print the response body for GET.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test http request" name="test GET request for single user 3" time="0.778">
+        <system-out><![CDATA[Given retrive data from "GET_single_user_request" and 2 for GET.............passed
+When user call baseUrl with endpoint and userId for GET.....................passed
+Then verify statusCode and userId with excel file for GET...................passed
+And print the response body for GET.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test http request" name="test GET request for single user 4" time="0.826">
+        <system-out><![CDATA[Given retrive data from "GET_single_user_request" and 3 for GET.............passed
+When user call baseUrl with endpoint and userId for GET.....................passed
+Then verify statusCode and userId with excel file for GET...................passed
+And print the response body for GET.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test http request" name="test GET request for single user 5" time="0.797">
+        <system-out><![CDATA[Given retrive data from "GET_single_user_request" and 4 for GET.............passed
+When user call baseUrl with endpoint and userId for GET.....................passed
+Then verify statusCode and userId with excel file for GET...................passed
+And print the response body for GET.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test http request" name="test GET request for users list" time="0.777">
+        <system-out><![CDATA[Given retrive data from "GET_list_users" and 0 for GET_list.................passed
+When user call baseUrl with endpoint and userId for GET_list................passed
+Then verify statusCode and pageId with excel file for GET_list..............passed
+And print the response body for GET_list....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test http request" name="test GET request for users list 2" time="0.859">
+        <system-out><![CDATA[Given retrive data from "GET_list_users" and 1 for GET_list.................passed
+When user call baseUrl with endpoint and userId for GET_list................passed
+Then verify statusCode and pageId with excel file for GET_list..............passed
+And print the response body for GET_list....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test http request" name="test GET request for users list 3" time="2.624">
+        <system-out><![CDATA[Given retrive data from "GET_list_users" and 2 for GET_list.................passed
+When user call baseUrl with endpoint and userId for GET_list................passed
+Then verify statusCode and pageId with excel file for GET_list..............passed
+And print the response body for GET_list....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test http request" name="test POST request" time="0.857">
+        <system-out><![CDATA[Given retrive data from "POST_request" and 0 for POST.......................passed
+When user call baseUrl with endpoint and userId for POST....................passed
+Then verify statusCode with excel file for POST.............................passed
+And print the response body for POST........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test http request" name="test POST request 2" time="0.764">
+        <system-out><![CDATA[Given retrive data from "POST_request" and 1 for POST.......................passed
+When user call baseUrl with endpoint and userId for POST....................passed
+Then verify statusCode with excel file for POST.............................passed
+And print the response body for POST........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test http request" name="test POST request 3" time="0.809">
+        <system-out><![CDATA[Given retrive data from "POST_request" and 2 for POST.......................passed
+When user call baseUrl with endpoint and userId for POST....................passed
+Then verify statusCode with excel file for POST.............................passed
+And print the response body for POST........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test http request" name="test POST request 4" time="0.764">
+        <system-out><![CDATA[Given retrive data from "POST_request" and 3 for POST.......................passed
+When user call baseUrl with endpoint and userId for POST....................passed
+Then verify statusCode with excel file for POST.............................passed
+And print the response body for POST........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test http request" name="test POST request 5" time="0.827">
+        <system-out><![CDATA[Given retrive data from "POST_request" and 4 for POST.......................passed
+When user call baseUrl with endpoint and userId for POST....................passed
+Then verify statusCode with excel file for POST.............................passed
+And print the response body for POST........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test http request" name="test PUT request" time="0.816">
+        <system-out><![CDATA[Given retrive data from "PUT_request" and 0 for PUT.........................passed
+When user call baseUrl with endpoint and userId for PUT.....................passed
+Then verify statusCode with excel file for PUT..............................passed
+And print the response body for PUT.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test http request" name="test PATCH request" time="0.772">
+        <system-out><![CDATA[Given retrive data from "PATCH_request" and 0 for PATCH.....................passed
+When user call baseUrl with endpoint and userId for PATCH...................passed
+Then verify statusCode with excel file for PATCH............................passed
+And print the response body for PATCH.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test http request" name="test DELETE request" time="1.019">
+        <system-out><![CDATA[Given retrive data from "DELETE_request" and 0 for DELETE...................passed
+When user call baseUrl with endpoint and userId for DELETE..................passed
+Then verify statusCode with excel file for DELETE...........................passed
+And print the response body for DELETE......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-28T06:59:47.747Z",
+        "line": 11,
+        "name": "check login is successful with valid credentials",
+        "description": "",
+        "id": "test-login-functionality;check-login-is-successful-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2990000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is opening",
+            "match": {
+              "location": "stepdefinition.LoginDemoSteps.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7237000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user on login page",
+            "match": {
+              "location": "stepdefinition.LoginDemoSteps.login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2122000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters Admin andadmin123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 12
+                },
+                {
+                  "val": "admin123",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinition.LoginDemoSteps.enter_credential(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4784000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click login",
+            "match": {
+              "location": "stepdefinition.LoginDemoSteps.click_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test login functionality",
+    "description": "",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/logindemo.feature",
+    "tags": []
+  }
+]

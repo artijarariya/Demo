@@ -1,0 +1,10 @@
+io.cucumber.junit.UndefinedStepException: The step 'user is in assign leave page' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("user is in assign leave page")
+public void user_is_in_assign_leave_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

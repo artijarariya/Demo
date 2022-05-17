@@ -1,0 +1,1112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-28T13:09:00.833Z",
+        "line": 11,
+        "name": "test GET request for single user",
+        "description": "",
+        "id": "test-http-request;test-get-request-for-single-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 829807500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "retrive data from \"GET_single_user_request\" and 0 for GET",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET_single_user_request\"",
+                  "offset": 18
+                },
+                {
+                  "val": "0",
+                  "offset": 48
+                }
+              ],
+              "location": "stepdefinitions.GET_single_user_request.retrive_data_from_and(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3227494000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user call baseUrl with endpoint and userId for GET",
+            "match": {
+              "location": "stepdefinitions.GET_single_user_request.user_call_base_url_with_endpoint_and_user_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 787243300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify statusCode and userId with excel file for GET",
+            "match": {
+              "location": "stepdefinitions.GET_single_user_request.verify_status_code_with_excel_file()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51091100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "print the response body for GET",
+            "match": {
+              "location": "stepdefinitions.GET_single_user_request.print_the_response_body()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-28T13:09:05.880Z",
+        "line": 12,
+        "name": "test GET request for single user",
+        "description": "",
+        "id": "test-http-request;test-get-request-for-single-user;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 94908400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "retrive data from \"GET_single_user_request\" and 1 for GET",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET_single_user_request\"",
+                  "offset": 18
+                },
+                {
+                  "val": "1",
+                  "offset": 48
+                }
+              ],
+              "location": "stepdefinitions.GET_single_user_request.retrive_data_from_and(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 542863800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user call baseUrl with endpoint and userId for GET",
+            "match": {
+              "location": "stepdefinitions.GET_single_user_request.user_call_base_url_with_endpoint_and_user_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16477400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify statusCode and userId with excel file for GET",
+            "match": {
+              "location": "stepdefinitions.GET_single_user_request.verify_status_code_with_excel_file()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32279700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "print the response body for GET",
+            "match": {
+              "location": "stepdefinitions.GET_single_user_request.print_the_response_body()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-28T13:09:06.583Z",
+        "line": 13,
+        "name": "test GET request for single user",
+        "description": "",
+        "id": "test-http-request;test-get-request-for-single-user;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 71938100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "retrive data from \"GET_single_user_request\" and 2 for GET",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET_single_user_request\"",
+                  "offset": 18
+                },
+                {
+                  "val": "2",
+                  "offset": 48
+                }
+              ],
+              "location": "stepdefinitions.GET_single_user_request.retrive_data_from_and(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 604672800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user call baseUrl with endpoint and userId for GET",
+            "match": {
+              "location": "stepdefinitions.GET_single_user_request.user_call_base_url_with_endpoint_and_user_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17824800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify statusCode and userId with excel file for GET",
+            "match": {
+              "location": "stepdefinitions.GET_single_user_request.verify_status_code_with_excel_file()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39116000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "print the response body for GET",
+            "match": {
+              "location": "stepdefinitions.GET_single_user_request.print_the_response_body()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-28T13:09:07.332Z",
+        "line": 14,
+        "name": "test GET request for single user",
+        "description": "",
+        "id": "test-http-request;test-get-request-for-single-user;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 50815200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "retrive data from \"GET_single_user_request\" and 3 for GET",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET_single_user_request\"",
+                  "offset": 18
+                },
+                {
+                  "val": "3",
+                  "offset": 48
+                }
+              ],
+              "location": "stepdefinitions.GET_single_user_request.retrive_data_from_and(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 601944500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user call baseUrl with endpoint and userId for GET",
+            "match": {
+              "location": "stepdefinitions.GET_single_user_request.user_call_base_url_with_endpoint_and_user_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14138500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify statusCode and userId with excel file for GET",
+            "match": {
+              "location": "stepdefinitions.GET_single_user_request.verify_status_code_with_excel_file()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28829100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "print the response body for GET",
+            "match": {
+              "location": "stepdefinitions.GET_single_user_request.print_the_response_body()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-28T13:09:08.042Z",
+        "line": 15,
+        "name": "test GET request for single user",
+        "description": "",
+        "id": "test-http-request;test-get-request-for-single-user;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 50662000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "retrive data from \"GET_single_user_request\" and 4 for GET",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET_single_user_request\"",
+                  "offset": 18
+                },
+                {
+                  "val": "4",
+                  "offset": 48
+                }
+              ],
+              "location": "stepdefinitions.GET_single_user_request.retrive_data_from_and(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 549831300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user call baseUrl with endpoint and userId for GET",
+            "match": {
+              "location": "stepdefinitions.GET_single_user_request.user_call_base_url_with_endpoint_and_user_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15955800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify statusCode and userId with excel file for GET",
+            "match": {
+              "location": "stepdefinitions.GET_single_user_request.verify_status_code_with_excel_file()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30749400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "print the response body for GET",
+            "match": {
+              "location": "stepdefinitions.GET_single_user_request.print_the_response_body()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-28T13:09:08.702Z",
+        "line": 25,
+        "name": "test GET request for users list",
+        "description": "",
+        "id": "test-http-request;test-get-request-for-users-list;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41129000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "retrive data from \"GET_list_users\" and 0 for GET_list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET_list_users\"",
+                  "offset": 18
+                },
+                {
+                  "val": "0",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefinitions.GET_list_of_users.retrive_data_from_and(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 594017500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user call baseUrl with endpoint and userId for GET_list",
+            "match": {
+              "location": "stepdefinitions.GET_list_of_users.user_call_base_url_with_endpoint_and_user_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18710500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify statusCode and pageId with excel file for GET_list",
+            "match": {
+              "location": "stepdefinitions.GET_list_of_users.verify_status_code_with_excel_file()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19121100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "print the response body for GET_list",
+            "match": {
+              "location": "stepdefinitions.GET_list_of_users.print_the_response_body()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-28T13:09:09.383Z",
+        "line": 26,
+        "name": "test GET request for users list",
+        "description": "",
+        "id": "test-http-request;test-get-request-for-users-list;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 42086000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "retrive data from \"GET_list_users\" and 1 for GET_list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET_list_users\"",
+                  "offset": 18
+                },
+                {
+                  "val": "1",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefinitions.GET_list_of_users.retrive_data_from_and(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 557211600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user call baseUrl with endpoint and userId for GET_list",
+            "match": {
+              "location": "stepdefinitions.GET_list_of_users.user_call_base_url_with_endpoint_and_user_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13993000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify statusCode and pageId with excel file for GET_list",
+            "match": {
+              "location": "stepdefinitions.GET_list_of_users.verify_status_code_with_excel_file()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12658300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "print the response body for GET_list",
+            "match": {
+              "location": "stepdefinitions.GET_list_of_users.print_the_response_body()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-28T13:09:10.026Z",
+        "line": 27,
+        "name": "test GET request for users list",
+        "description": "",
+        "id": "test-http-request;test-get-request-for-users-list;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35505000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "retrive data from \"GET_list_users\" and 2 for GET_list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET_list_users\"",
+                  "offset": 18
+                },
+                {
+                  "val": "2",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefinitions.GET_list_of_users.retrive_data_from_and(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 519692700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user call baseUrl with endpoint and userId for GET_list",
+            "match": {
+              "location": "stepdefinitions.GET_list_of_users.user_call_base_url_with_endpoint_and_user_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12052000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify statusCode and pageId with excel file for GET_list",
+            "match": {
+              "location": "stepdefinitions.GET_list_of_users.verify_status_code_with_excel_file()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10765600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "print the response body for GET_list",
+            "match": {
+              "location": "stepdefinitions.GET_list_of_users.print_the_response_body()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-28T13:09:10.615Z",
+        "line": 37,
+        "name": "test POST request",
+        "description": "",
+        "id": "test-http-request;test-post-request;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34745100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "retrive data from \"POST_request\" and 0 for POST",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST_request\"",
+                  "offset": 18
+                },
+                {
+                  "val": "0",
+                  "offset": 37
+                }
+              ],
+              "location": "stepdefinitions.POST_request.retrive_data_from_and_for_post(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 596213200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user call baseUrl with endpoint and userId for POST",
+            "match": {
+              "location": "stepdefinitions.POST_request.user_call_base_url_with_endpoint_and_user_id_for_post()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 320200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "verify statusCode with excel file for POST",
+            "match": {
+              "location": "stepdefinitions.POST_request.verify_status_code_with_excel_file_for_post()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11000300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "print the response body for POST",
+            "match": {
+              "location": "stepdefinitions.POST_request.print_the_response_body_for_post()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-28T13:09:11.263Z",
+        "line": 38,
+        "name": "test POST request",
+        "description": "",
+        "id": "test-http-request;test-post-request;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23018700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "retrive data from \"POST_request\" and 1 for POST",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST_request\"",
+                  "offset": 18
+                },
+                {
+                  "val": "1",
+                  "offset": 37
+                }
+              ],
+              "location": "stepdefinitions.POST_request.retrive_data_from_and_for_post(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 599457000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user call baseUrl with endpoint and userId for POST",
+            "match": {
+              "location": "stepdefinitions.POST_request.user_call_base_url_with_endpoint_and_user_id_for_post()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "verify statusCode with excel file for POST",
+            "match": {
+              "location": "stepdefinitions.POST_request.verify_status_code_with_excel_file_for_post()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11491100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "print the response body for POST",
+            "match": {
+              "location": "stepdefinitions.POST_request.print_the_response_body_for_post()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-28T13:09:11.905Z",
+        "line": 39,
+        "name": "test POST request",
+        "description": "",
+        "id": "test-http-request;test-post-request;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34637800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "retrive data from \"POST_request\" and 2 for POST",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST_request\"",
+                  "offset": 18
+                },
+                {
+                  "val": "2",
+                  "offset": 37
+                }
+              ],
+              "location": "stepdefinitions.POST_request.retrive_data_from_and_for_post(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 561265000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user call baseUrl with endpoint and userId for POST",
+            "match": {
+              "location": "stepdefinitions.POST_request.user_call_base_url_with_endpoint_and_user_id_for_post()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "verify statusCode with excel file for POST",
+            "match": {
+              "location": "stepdefinitions.POST_request.verify_status_code_with_excel_file_for_post()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12672600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "print the response body for POST",
+            "match": {
+              "location": "stepdefinitions.POST_request.print_the_response_body_for_post()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-28T13:09:12.522Z",
+        "line": 40,
+        "name": "test POST request",
+        "description": "",
+        "id": "test-http-request;test-post-request;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24234600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "retrive data from \"POST_request\" and 3 for POST",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST_request\"",
+                  "offset": 18
+                },
+                {
+                  "val": "3",
+                  "offset": 37
+                }
+              ],
+              "location": "stepdefinitions.POST_request.retrive_data_from_and_for_post(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 558500200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user call baseUrl with endpoint and userId for POST",
+            "match": {
+              "location": "stepdefinitions.POST_request.user_call_base_url_with_endpoint_and_user_id_for_post()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "verify statusCode with excel file for POST",
+            "match": {
+              "location": "stepdefinitions.POST_request.verify_status_code_with_excel_file_for_post()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13120200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "print the response body for POST",
+            "match": {
+              "location": "stepdefinitions.POST_request.print_the_response_body_for_post()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-28T13:09:13.125Z",
+        "line": 41,
+        "name": "test POST request",
+        "description": "",
+        "id": "test-http-request;test-post-request;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22658000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "retrive data from \"POST_request\" and 4 for POST",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST_request\"",
+                  "offset": 18
+                },
+                {
+                  "val": "4",
+                  "offset": 37
+                }
+              ],
+              "location": "stepdefinitions.POST_request.retrive_data_from_and_for_post(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 552674400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user call baseUrl with endpoint and userId for POST",
+            "match": {
+              "location": "stepdefinitions.POST_request.user_call_base_url_with_endpoint_and_user_id_for_post()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "verify statusCode with excel file for POST",
+            "match": {
+              "location": "stepdefinitions.POST_request.verify_status_code_with_excel_file_for_post()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31925800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "print the response body for POST",
+            "match": {
+              "location": "stepdefinitions.POST_request.print_the_response_body_for_post()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-28T13:09:13.752Z",
+        "line": 51,
+        "name": "test PUT request",
+        "description": "",
+        "id": "test-http-request;test-put-request;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 62286800,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "retrive data from \"PUT_request\" and 0 for PUT",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUT_request\"",
+                  "offset": 18
+                },
+                {
+                  "val": "0",
+                  "offset": 36
+                }
+              ],
+              "location": "stepdefinitions.PUT_request.retrive_data_from_and_for_put(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 597393600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user call baseUrl with endpoint and userId for PUT",
+            "match": {
+              "location": "stepdefinitions.PUT_request.user_call_base_url_with_endpoint_and_user_id_for_put()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "verify statusCode with excel file for PUT",
+            "match": {
+              "location": "stepdefinitions.PUT_request.verify_status_code_with_excel_file_for_put()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24302000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "print the response body for PUT",
+            "match": {
+              "location": "stepdefinitions.PUT_request.print_the_response_body_for_put()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-28T13:09:14.447Z",
+        "line": 61,
+        "name": "test PATCH request",
+        "description": "",
+        "id": "test-http-request;test-patch-request;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31113800,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "retrive data from \"PATCH_request\" and 0 for PATCH",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PATCH_request\"",
+                  "offset": 18
+                },
+                {
+                  "val": "0",
+                  "offset": 38
+                }
+              ],
+              "location": "stepdefinitions.PATCH_request.retrive_data_from_and_for_patch(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 637802400,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user call baseUrl with endpoint and userId for PATCH",
+            "match": {
+              "location": "stepdefinitions.PATCH_request.user_call_base_url_with_endpoint_and_user_id_for_patch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 737300,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "verify statusCode with excel file for PATCH",
+            "match": {
+              "location": "stepdefinitions.PATCH_request.verify_status_code_with_excel_file_for_patch()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10955600,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "print the response body for PATCH",
+            "match": {
+              "location": "stepdefinitions.PATCH_request.print_the_response_body_for_patch()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-28T13:09:15.135Z",
+        "line": 71,
+        "name": "test DELETE request",
+        "description": "",
+        "id": "test-http-request;test-delete-request;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30953300,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "retrive data from \"DELETE_request\" and 0 for DELETE",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DELETE_request\"",
+                  "offset": 18
+                },
+                {
+                  "val": "0",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefinitions.DELETE_request.retrive_data_from_and_for_delete(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 655649700,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user call baseUrl with endpoint and userId for DELETE",
+            "match": {
+              "location": "stepdefinitions.DELETE_request.user_call_base_url_with_endpoint_and_user_id_for_delete()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 852800,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "verify statusCode with excel file for DELETE",
+            "match": {
+              "location": "stepdefinitions.DELETE_request.verify_status_code_with_excel_file_for_delete()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 996600,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "print the response body for DELETE",
+            "match": {
+              "location": "stepdefinitions.DELETE_request.print_the_response_body_for_delete()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "test http request",
+    "description": "",
+    "id": "test-http-request",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/httpsRequest.feature",
+    "tags": []
+  }
+]

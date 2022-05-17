@@ -1,0 +1,1092 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-25T06:33:23.330Z",
+        "line": 11,
+        "name": "test GET request for single user",
+        "description": "",
+        "id": "test-http-request;test-get-request-for-single-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utilities.ExcelReaderFile.readSheet(ExcelReaderFile.java:48)\r\n\tat utilities.ExcelReaderFile.getData(ExcelReaderFile.java:23)\r\n\tat StepDefinitions.GetSingleUser.retrive_data_from_and_for_get(GetSingleUser.java:33)\r\n\tat ✽.retrive data from \"GETSingleUser\" and 0 for GET(file:///C:/Users/Arti.Jarariya/eclipse-workspace/Project_1/src/test/resources/features/AllRequest.feature:4)\r\n",
+              "duration": 1218000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "retrive data from \"GETSingleUser\" and 0 for GET",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GETSingleUser\"",
+                  "offset": 18
+                },
+                {
+                  "val": "0",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinitions.GetSingleUser.retrive_data_from_and_for_get(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user call baseUrl with endpoint and userId for GET",
+            "match": {
+              "location": "StepDefinitions.GetSingleUser.user_call_base_url_with_endpoint_and_user_id_for_get()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "verify statusCode and userId with excel file for GET",
+            "match": {
+              "location": "StepDefinitions.GetSingleUser.verify_status_code_and_user_id_with_excel_file_for_get()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "print the response body for GET",
+            "match": {
+              "location": "StepDefinitions.GetSingleUser.print_the_response_body_for_get()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-25T06:33:24.708Z",
+        "line": 12,
+        "name": "test GET request for single user",
+        "description": "",
+        "id": "test-http-request;test-get-request-for-single-user;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utilities.ExcelReaderFile.readSheet(ExcelReaderFile.java:48)\r\n\tat utilities.ExcelReaderFile.getData(ExcelReaderFile.java:23)\r\n\tat StepDefinitions.GetSingleUser.retrive_data_from_and_for_get(GetSingleUser.java:33)\r\n\tat ✽.retrive data from \"GETSingleUser\" and 1 for GET(file:///C:/Users/Arti.Jarariya/eclipse-workspace/Project_1/src/test/resources/features/AllRequest.feature:4)\r\n",
+              "duration": 55000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "retrive data from \"GETSingleUser\" and 1 for GET",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GETSingleUser\"",
+                  "offset": 18
+                },
+                {
+                  "val": "1",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinitions.GetSingleUser.retrive_data_from_and_for_get(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user call baseUrl with endpoint and userId for GET",
+            "match": {
+              "location": "StepDefinitions.GetSingleUser.user_call_base_url_with_endpoint_and_user_id_for_get()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "verify statusCode and userId with excel file for GET",
+            "match": {
+              "location": "StepDefinitions.GetSingleUser.verify_status_code_and_user_id_with_excel_file_for_get()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "print the response body for GET",
+            "match": {
+              "location": "StepDefinitions.GetSingleUser.print_the_response_body_for_get()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-25T06:33:24.777Z",
+        "line": 13,
+        "name": "test GET request for single user",
+        "description": "",
+        "id": "test-http-request;test-get-request-for-single-user;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utilities.ExcelReaderFile.readSheet(ExcelReaderFile.java:48)\r\n\tat utilities.ExcelReaderFile.getData(ExcelReaderFile.java:23)\r\n\tat StepDefinitions.GetSingleUser.retrive_data_from_and_for_get(GetSingleUser.java:33)\r\n\tat ✽.retrive data from \"GETSingleUser\" and 2 for GET(file:///C:/Users/Arti.Jarariya/eclipse-workspace/Project_1/src/test/resources/features/AllRequest.feature:4)\r\n",
+              "duration": 56000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "retrive data from \"GETSingleUser\" and 2 for GET",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GETSingleUser\"",
+                  "offset": 18
+                },
+                {
+                  "val": "2",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinitions.GetSingleUser.retrive_data_from_and_for_get(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user call baseUrl with endpoint and userId for GET",
+            "match": {
+              "location": "StepDefinitions.GetSingleUser.user_call_base_url_with_endpoint_and_user_id_for_get()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "verify statusCode and userId with excel file for GET",
+            "match": {
+              "location": "StepDefinitions.GetSingleUser.verify_status_code_and_user_id_with_excel_file_for_get()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "print the response body for GET",
+            "match": {
+              "location": "StepDefinitions.GetSingleUser.print_the_response_body_for_get()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-25T06:33:24.849Z",
+        "line": 14,
+        "name": "test GET request for single user",
+        "description": "",
+        "id": "test-http-request;test-get-request-for-single-user;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utilities.ExcelReaderFile.readSheet(ExcelReaderFile.java:48)\r\n\tat utilities.ExcelReaderFile.getData(ExcelReaderFile.java:23)\r\n\tat StepDefinitions.GetSingleUser.retrive_data_from_and_for_get(GetSingleUser.java:33)\r\n\tat ✽.retrive data from \"GETSingleUser\" and 3 for GET(file:///C:/Users/Arti.Jarariya/eclipse-workspace/Project_1/src/test/resources/features/AllRequest.feature:4)\r\n",
+              "duration": 48000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "retrive data from \"GETSingleUser\" and 3 for GET",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GETSingleUser\"",
+                  "offset": 18
+                },
+                {
+                  "val": "3",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinitions.GetSingleUser.retrive_data_from_and_for_get(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user call baseUrl with endpoint and userId for GET",
+            "match": {
+              "location": "StepDefinitions.GetSingleUser.user_call_base_url_with_endpoint_and_user_id_for_get()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "verify statusCode and userId with excel file for GET",
+            "match": {
+              "location": "StepDefinitions.GetSingleUser.verify_status_code_and_user_id_with_excel_file_for_get()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "print the response body for GET",
+            "match": {
+              "location": "StepDefinitions.GetSingleUser.print_the_response_body_for_get()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-25T06:33:24.915Z",
+        "line": 15,
+        "name": "test GET request for single user",
+        "description": "",
+        "id": "test-http-request;test-get-request-for-single-user;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utilities.ExcelReaderFile.readSheet(ExcelReaderFile.java:48)\r\n\tat utilities.ExcelReaderFile.getData(ExcelReaderFile.java:23)\r\n\tat StepDefinitions.GetSingleUser.retrive_data_from_and_for_get(GetSingleUser.java:33)\r\n\tat ✽.retrive data from \"GETSingleUser\" and 4 for GET(file:///C:/Users/Arti.Jarariya/eclipse-workspace/Project_1/src/test/resources/features/AllRequest.feature:4)\r\n",
+              "duration": 42000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "retrive data from \"GETSingleUser\" and 4 for GET",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GETSingleUser\"",
+                  "offset": 18
+                },
+                {
+                  "val": "4",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinitions.GetSingleUser.retrive_data_from_and_for_get(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user call baseUrl with endpoint and userId for GET",
+            "match": {
+              "location": "StepDefinitions.GetSingleUser.user_call_base_url_with_endpoint_and_user_id_for_get()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "verify statusCode and userId with excel file for GET",
+            "match": {
+              "location": "StepDefinitions.GetSingleUser.verify_status_code_and_user_id_with_excel_file_for_get()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "print the response body for GET",
+            "match": {
+              "location": "StepDefinitions.GetSingleUser.print_the_response_body_for_get()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-25T06:33:24.967Z",
+        "line": 25,
+        "name": "test GET request for users list",
+        "description": "",
+        "id": "test-http-request;test-get-request-for-users-list;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utilities.ExcelReaderFile.readSheet(ExcelReaderFile.java:48)\r\n\tat utilities.ExcelReaderFile.getData(ExcelReaderFile.java:23)\r\n\tat StepDefinitions.GetListUser.retrive_data_from_and(GetListUser.java:31)\r\n\tat ✽.retrive data from \"GET\" and 0 for GET_list(file:///C:/Users/Arti.Jarariya/eclipse-workspace/Project_1/src/test/resources/features/AllRequest.feature:18)\r\n",
+              "duration": 35000000,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "retrive data from \"GET\" and 0 for GET_list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 18
+                },
+                {
+                  "val": "0",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinitions.GetListUser.retrive_data_from_and(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user call baseUrl with endpoint and userId for GET_list",
+            "match": {
+              "location": "StepDefinitions.GetListUser.user_call_base_url_with_endpoint_and_user_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "verify statusCode and pageId with excel file for GET_list",
+            "match": {
+              "location": "StepDefinitions.GetListUser.verify_status_code_with_excel_file()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "print the response body for GET_list",
+            "match": {
+              "location": "StepDefinitions.GetListUser.print_the_response_body()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-25T06:33:25.011Z",
+        "line": 26,
+        "name": "test GET request for users list",
+        "description": "",
+        "id": "test-http-request;test-get-request-for-users-list;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utilities.ExcelReaderFile.readSheet(ExcelReaderFile.java:48)\r\n\tat utilities.ExcelReaderFile.getData(ExcelReaderFile.java:23)\r\n\tat StepDefinitions.GetListUser.retrive_data_from_and(GetListUser.java:31)\r\n\tat ✽.retrive data from \"GET\" and 1 for GET_list(file:///C:/Users/Arti.Jarariya/eclipse-workspace/Project_1/src/test/resources/features/AllRequest.feature:18)\r\n",
+              "duration": 32000000,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "retrive data from \"GET\" and 1 for GET_list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 18
+                },
+                {
+                  "val": "1",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinitions.GetListUser.retrive_data_from_and(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user call baseUrl with endpoint and userId for GET_list",
+            "match": {
+              "location": "StepDefinitions.GetListUser.user_call_base_url_with_endpoint_and_user_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "verify statusCode and pageId with excel file for GET_list",
+            "match": {
+              "location": "StepDefinitions.GetListUser.verify_status_code_with_excel_file()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "print the response body for GET_list",
+            "match": {
+              "location": "StepDefinitions.GetListUser.print_the_response_body()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-25T06:33:25.054Z",
+        "line": 27,
+        "name": "test GET request for users list",
+        "description": "",
+        "id": "test-http-request;test-get-request-for-users-list;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utilities.ExcelReaderFile.readSheet(ExcelReaderFile.java:48)\r\n\tat utilities.ExcelReaderFile.getData(ExcelReaderFile.java:23)\r\n\tat StepDefinitions.GetListUser.retrive_data_from_and(GetListUser.java:31)\r\n\tat ✽.retrive data from \"GET\" and 2 for GET_list(file:///C:/Users/Arti.Jarariya/eclipse-workspace/Project_1/src/test/resources/features/AllRequest.feature:18)\r\n",
+              "duration": 37000000,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "retrive data from \"GET\" and 2 for GET_list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 18
+                },
+                {
+                  "val": "2",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinitions.GetListUser.retrive_data_from_and(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user call baseUrl with endpoint and userId for GET_list",
+            "match": {
+              "location": "StepDefinitions.GetListUser.user_call_base_url_with_endpoint_and_user_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "verify statusCode and pageId with excel file for GET_list",
+            "match": {
+              "location": "StepDefinitions.GetListUser.verify_status_code_with_excel_file()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "print the response body for GET_list",
+            "match": {
+              "location": "StepDefinitions.GetListUser.print_the_response_body()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-25T06:33:25.102Z",
+        "line": 37,
+        "name": "test POST request",
+        "description": "",
+        "id": "test-http-request;test-post-request;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utilities.ExcelReaderFile.readSheet(ExcelReaderFile.java:48)\r\n\tat utilities.ExcelReaderFile.getData(ExcelReaderFile.java:23)\r\n\tat StepDefinitions.Post.retrive_data_from_and_for_post(Post.java:32)\r\n\tat ✽.retrive data from \"POST\" and 0 for POST(file:///C:/Users/Arti.Jarariya/eclipse-workspace/Project_1/src/test/resources/features/AllRequest.feature:30)\r\n",
+              "duration": 45000000,
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "retrive data from \"POST\" and 0 for POST",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 18
+                },
+                {
+                  "val": "0",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.Post.retrive_data_from_and_for_post(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user call baseUrl with endpoint and userId for POST",
+            "match": {
+              "location": "StepDefinitions.Post.user_call_base_url_with_endpoint_and_user_id_for_post()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "verify statusCode with excel file for POST",
+            "match": {
+              "location": "StepDefinitions.Post.verify_status_code_with_excel_file_for_post()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "print the response body for POST",
+            "match": {
+              "location": "StepDefinitions.Post.print_the_response_body_for_post()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-25T06:33:25.158Z",
+        "line": 38,
+        "name": "test POST request",
+        "description": "",
+        "id": "test-http-request;test-post-request;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utilities.ExcelReaderFile.readSheet(ExcelReaderFile.java:48)\r\n\tat utilities.ExcelReaderFile.getData(ExcelReaderFile.java:23)\r\n\tat StepDefinitions.Post.retrive_data_from_and_for_post(Post.java:32)\r\n\tat ✽.retrive data from \"POST\" and 1 for POST(file:///C:/Users/Arti.Jarariya/eclipse-workspace/Project_1/src/test/resources/features/AllRequest.feature:30)\r\n",
+              "duration": 39000000,
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "retrive data from \"POST\" and 1 for POST",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 18
+                },
+                {
+                  "val": "1",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.Post.retrive_data_from_and_for_post(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user call baseUrl with endpoint and userId for POST",
+            "match": {
+              "location": "StepDefinitions.Post.user_call_base_url_with_endpoint_and_user_id_for_post()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "verify statusCode with excel file for POST",
+            "match": {
+              "location": "StepDefinitions.Post.verify_status_code_with_excel_file_for_post()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "print the response body for POST",
+            "match": {
+              "location": "StepDefinitions.Post.print_the_response_body_for_post()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-25T06:33:25.205Z",
+        "line": 39,
+        "name": "test POST request",
+        "description": "",
+        "id": "test-http-request;test-post-request;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utilities.ExcelReaderFile.readSheet(ExcelReaderFile.java:48)\r\n\tat utilities.ExcelReaderFile.getData(ExcelReaderFile.java:23)\r\n\tat StepDefinitions.Post.retrive_data_from_and_for_post(Post.java:32)\r\n\tat ✽.retrive data from \"POST\" and 2 for POST(file:///C:/Users/Arti.Jarariya/eclipse-workspace/Project_1/src/test/resources/features/AllRequest.feature:30)\r\n",
+              "duration": 29000000,
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "retrive data from \"POST\" and 2 for POST",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 18
+                },
+                {
+                  "val": "2",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.Post.retrive_data_from_and_for_post(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user call baseUrl with endpoint and userId for POST",
+            "match": {
+              "location": "StepDefinitions.Post.user_call_base_url_with_endpoint_and_user_id_for_post()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "verify statusCode with excel file for POST",
+            "match": {
+              "location": "StepDefinitions.Post.verify_status_code_with_excel_file_for_post()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "print the response body for POST",
+            "match": {
+              "location": "StepDefinitions.Post.print_the_response_body_for_post()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-25T06:33:25.243Z",
+        "line": 40,
+        "name": "test POST request",
+        "description": "",
+        "id": "test-http-request;test-post-request;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utilities.ExcelReaderFile.readSheet(ExcelReaderFile.java:48)\r\n\tat utilities.ExcelReaderFile.getData(ExcelReaderFile.java:23)\r\n\tat StepDefinitions.Post.retrive_data_from_and_for_post(Post.java:32)\r\n\tat ✽.retrive data from \"POST\" and 3 for POST(file:///C:/Users/Arti.Jarariya/eclipse-workspace/Project_1/src/test/resources/features/AllRequest.feature:30)\r\n",
+              "duration": 33000000,
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "retrive data from \"POST\" and 3 for POST",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 18
+                },
+                {
+                  "val": "3",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.Post.retrive_data_from_and_for_post(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user call baseUrl with endpoint and userId for POST",
+            "match": {
+              "location": "StepDefinitions.Post.user_call_base_url_with_endpoint_and_user_id_for_post()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "verify statusCode with excel file for POST",
+            "match": {
+              "location": "StepDefinitions.Post.verify_status_code_with_excel_file_for_post()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "print the response body for POST",
+            "match": {
+              "location": "StepDefinitions.Post.print_the_response_body_for_post()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-25T06:33:25.286Z",
+        "line": 41,
+        "name": "test POST request",
+        "description": "",
+        "id": "test-http-request;test-post-request;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utilities.ExcelReaderFile.readSheet(ExcelReaderFile.java:48)\r\n\tat utilities.ExcelReaderFile.getData(ExcelReaderFile.java:23)\r\n\tat StepDefinitions.Post.retrive_data_from_and_for_post(Post.java:32)\r\n\tat ✽.retrive data from \"POST\" and 4 for POST(file:///C:/Users/Arti.Jarariya/eclipse-workspace/Project_1/src/test/resources/features/AllRequest.feature:30)\r\n",
+              "duration": 33000000,
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "retrive data from \"POST\" and 4 for POST",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 18
+                },
+                {
+                  "val": "4",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.Post.retrive_data_from_and_for_post(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user call baseUrl with endpoint and userId for POST",
+            "match": {
+              "location": "StepDefinitions.Post.user_call_base_url_with_endpoint_and_user_id_for_post()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "verify statusCode with excel file for POST",
+            "match": {
+              "location": "StepDefinitions.Post.verify_status_code_with_excel_file_for_post()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "print the response body for POST",
+            "match": {
+              "location": "StepDefinitions.Post.print_the_response_body_for_post()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-25T06:33:25.328Z",
+        "line": 51,
+        "name": "test PUT request",
+        "description": "",
+        "id": "test-http-request;test-put-request;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utilities.ExcelReaderFile.readSheet(ExcelReaderFile.java:48)\r\n\tat utilities.ExcelReaderFile.getData(ExcelReaderFile.java:23)\r\n\tat StepDefinitions.Put.retrive_data_from_and_for_put(Put.java:33)\r\n\tat ✽.retrive data from \"PUT\" and 0 for PUT(file:///C:/Users/Arti.Jarariya/eclipse-workspace/Project_1/src/test/resources/features/AllRequest.feature:44)\r\n",
+              "duration": 35000000,
+              "status": "failed"
+            },
+            "line": 44,
+            "name": "retrive data from \"PUT\" and 0 for PUT",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUT\"",
+                  "offset": 18
+                },
+                {
+                  "val": "0",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinitions.Put.retrive_data_from_and_for_put(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "user call baseUrl with endpoint and userId for PUT",
+            "match": {
+              "location": "StepDefinitions.Put.user_call_base_url_with_endpoint_and_user_id_for_put()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "verify statusCode with excel file for PUT",
+            "match": {
+              "location": "StepDefinitions.Put.verify_status_code_with_excel_file_for_put()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "print the response body for PUT",
+            "match": {
+              "location": "StepDefinitions.Put.print_the_response_body_for_put()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-25T06:33:25.374Z",
+        "line": 61,
+        "name": "test PATCH request",
+        "description": "",
+        "id": "test-http-request;test-patch-request;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.io.FileNotFoundException: .\\excelFiles\\PATCH_request.xlsx\r\n\tat org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:317)\r\n\tat org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:295)\r\n\tat org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:276)\r\n\tat utilities.ExcelReaderFile.getWorkBook(ExcelReaderFile.java:43)\r\n\tat utilities.ExcelReaderFile.getSheetByName(ExcelReaderFile.java:33)\r\n\tat utilities.ExcelReaderFile.getData(ExcelReaderFile.java:22)\r\n\tat StepDefinitions.Patch.retrive_data_from_and_for_patch(Patch.java:32)\r\n\tat ✽.retrive data from \"PATCH\" and 0 for PATCH(file:///C:/Users/Arti.Jarariya/eclipse-workspace/Project_1/src/test/resources/features/AllRequest.feature:54)\r\n",
+              "duration": 2000000,
+              "status": "failed"
+            },
+            "line": 54,
+            "name": "retrive data from \"PATCH\" and 0 for PATCH",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PATCH\"",
+                  "offset": 18
+                },
+                {
+                  "val": "0",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitions.Patch.retrive_data_from_and_for_patch(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "user call baseUrl with endpoint and userId for PATCH",
+            "match": {
+              "location": "StepDefinitions.Patch.user_call_base_url_with_endpoint_and_user_id_for_patch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "verify statusCode with excel file for PATCH",
+            "match": {
+              "location": "StepDefinitions.Patch.verify_status_code_with_excel_file_for_patch()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "print the response body for PATCH",
+            "match": {
+              "location": "StepDefinitions.Patch.print_the_response_body_for_patch()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-25T06:33:25.390Z",
+        "line": 71,
+        "name": "test DELETE request",
+        "description": "",
+        "id": "test-http-request;test-delete-request;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat utilities.ExcelReaderFile.readSheet(ExcelReaderFile.java:48)\r\n\tat utilities.ExcelReaderFile.getData(ExcelReaderFile.java:23)\r\n\tat StepDefinitions.Delete.retrive_data_from_and_for_delete(Delete.java:32)\r\n\tat ✽.retrive data from \"DELETE\" and 0 for DELETE(file:///C:/Users/Arti.Jarariya/eclipse-workspace/Project_1/src/test/resources/features/AllRequest.feature:64)\r\n",
+              "duration": 46000000,
+              "status": "failed"
+            },
+            "line": 64,
+            "name": "retrive data from \"DELETE\" and 0 for DELETE",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 18
+                },
+                {
+                  "val": "0",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.Delete.retrive_data_from_and_for_delete(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 65,
+            "name": "user call baseUrl with endpoint and userId for DELETE",
+            "match": {
+              "location": "StepDefinitions.Delete.user_call_base_url_with_endpoint_and_user_id_for_delete()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "verify statusCode with excel file for DELETE",
+            "match": {
+              "location": "StepDefinitions.Delete.verify_status_code_with_excel_file_for_delete()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 67,
+            "name": "print the response body for DELETE",
+            "match": {
+              "location": "StepDefinitions.Delete.print_the_response_body_for_delete()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "test http request",
+    "description": "",
+    "id": "test-http-request",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AllRequest.feature",
+    "tags": []
+  }
+]
